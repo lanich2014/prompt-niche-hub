@@ -63,7 +63,7 @@ export const Footer = () => {
           
           {/* Projects */}
           <div>
-            <h4 className="font-display font-semibold mb-4">Nossos Projetos</h4>
+            <h4 className="font-display font-semibold mb-4">Visite Nossos Sites</h4>
             <ul className="space-y-2">
               <li>
                 <a 
@@ -72,7 +72,7 @@ export const Footer = () => {
                   rel="noopener noreferrer"
                   className="text-sm text-muted-foreground hover:text-primary transition-colors inline-flex items-center gap-1"
                 >
-                  LAN-IA <ExternalLink className="w-3 h-3" />
+                  lan-ia.lovable.app <ExternalLink className="w-3 h-3" />
                 </a>
               </li>
               <li>
@@ -82,7 +82,7 @@ export const Footer = () => {
                   rel="noopener noreferrer"
                   className="text-sm text-muted-foreground hover:text-primary transition-colors inline-flex items-center gap-1"
                 >
-                  LAN-IA Nova <ExternalLink className="w-3 h-3" />
+                  lanianova-futurista-hero.lovable.app <ExternalLink className="w-3 h-3" />
                 </a>
               </li>
             </ul>
