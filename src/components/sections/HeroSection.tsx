@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, MessageCircle } from "lucide-react";
+import { WHATSAPP_LINK } from "@/data/nicheModels";
 
 export const HeroSection = () => {
   return (
@@ -36,14 +37,18 @@ export const HeroSection = () => {
           
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-up" style={{ animationDelay: "0.3s" }}>
-            <Button variant="hero" size="xl" className="group">
-              Ver Modelos Disponíveis
-              <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
-            </Button>
-            <Button variant="heroOutline" size="xl" className="group">
-              <MessageCircle className="w-5 h-5" />
-              Falar com um Especialista
-            </Button>
+            <a href="#modelos">
+              <Button variant="hero" size="xl" className="group">
+                Ver Modelos Disponíveis
+                <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
+              </Button>
+            </a>
+            <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer">
+              <Button variant="heroOutline" size="xl" className="group">
+                <MessageCircle className="w-5 h-5" />
+                Falar com um Especialista
+              </Button>
+            </a>
           </div>
           
           {/* Trust Indicators */}

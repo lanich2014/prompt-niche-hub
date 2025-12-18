@@ -1,5 +1,7 @@
 import { Button } from "@/components/ui/button";
-import { Check, Star, Sparkles } from "lucide-react";
+import { Check, Sparkles } from "lucide-react";
+import { Link } from "react-router-dom";
+import { WHATSAPP_LINK } from "@/data/nicheModels";
 
 const plans = [
   {
@@ -16,7 +18,8 @@ const plans = [
       "1 rodada de ajustes incluída"
     ],
     cta: "Comprar Modelo – R$597",
-    ctaVariant: "default" as const
+    ctaVariant: "default" as const,
+    linkType: "models"
   },
   {
     name: "Site Exclusivo Sob Medida",
@@ -33,7 +36,8 @@ const plans = [
       "Consultoria de posicionamento"
     ],
     cta: "Solicitar Site Sob Medida – R$997",
-    ctaVariant: "hero" as const
+    ctaVariant: "hero" as const,
+    linkType: "whatsapp"
   }
 ];
 
@@ -54,7 +58,7 @@ export const PricingSection = () => {
         
         {/* Pricing Cards */}
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-          {plans.map((plan, index) => (
+          {plans.map((plan) => (
             <div 
               key={plan.name}
               className={`relative rounded-3xl overflow-hidden transition-all duration-500 hover:-translate-y-2 ${
@@ -104,13 +108,27 @@ export const PricingSection = () => {
                 </ul>
                 
                 {/* CTA */}
-                <Button 
-                  variant={plan.ctaVariant} 
-                  size="lg" 
-                  className="w-full"
-                >
-                  {plan.cta}
-                </Button>
+                {plan.linkType === "models" ? (
+                  <a href="#modelos">
+                    <Button 
+                      variant={plan.ctaVariant} 
+                      size="lg" 
+                      className="w-full"
+                    >
+                      {plan.cta}
+                    </Button>
+                  </a>
+                ) : (
+                  <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer">
+                    <Button 
+                      variant={plan.ctaVariant} 
+                      size="lg" 
+                      className="w-full"
+                    >
+                      {plan.cta}
+                    </Button>
+                  </a>
+                )}
               </div>
             </div>
           ))}
