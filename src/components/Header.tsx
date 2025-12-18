@@ -1,4 +1,5 @@
 import { Code } from "lucide-react";
+import { WHATSAPP_LINK } from "@/data/nicheModels";
 
 export const Header = () => {
   return (
@@ -21,10 +22,15 @@ export const Header = () => {
             <a href="#precos" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               Preços
             </a>
-            <a href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+            <a href="#como-funciona" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               Como Funciona
             </a>
-            <a href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+            <a 
+              href={WHATSAPP_LINK}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+            >
               Contato
             </a>
           </nav>
