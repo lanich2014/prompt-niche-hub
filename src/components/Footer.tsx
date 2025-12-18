@@ -1,4 +1,4 @@
-import { Code, Mail, Phone, MapPin } from "lucide-react";
+import { Code, Mail, Phone, ExternalLink } from "lucide-react";
 
 export const Footer = () => {
   return (
@@ -20,11 +20,11 @@ export const Footer = () => {
             <div className="space-y-2">
               <div className="flex items-center gap-2 text-sm text-muted-foreground">
                 <Mail className="w-4 h-4" />
-                <span>contato@sitespro.com.br</span>
+                <span>lanich2014@gmail.com</span>
               </div>
               <div className="flex items-center gap-2 text-sm text-muted-foreground">
                 <Phone className="w-4 h-4" />
-                <span>(11) 99999-9999</span>
+                <span>(41) 99996-2535</span>
               </div>
             </div>
           </div>
@@ -44,40 +44,45 @@ export const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                <a href="#como-funciona" className="text-sm text-muted-foreground hover:text-primary transition-colors">
                   Como Funciona
                 </a>
               </li>
               <li>
-                <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                <a 
+                  href="https://wa.me/5541999962535?text=Olá! Gostaria de saber mais sobre os modelos de sites."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-muted-foreground hover:text-primary transition-colors"
+                >
                   Fale Conosco
                 </a>
               </li>
             </ul>
           </div>
           
-          {/* Niches */}
+          {/* Projects */}
           <div>
-            <h4 className="font-display font-semibold mb-4">Nichos</h4>
+            <h4 className="font-display font-semibold mb-4">Nossos Projetos</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  Advocacia
+                <a 
+                  href="https://lan-ia.lovable.app" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-muted-foreground hover:text-primary transition-colors inline-flex items-center gap-1"
+                >
+                  LAN-IA <ExternalLink className="w-3 h-3" />
                 </a>
               </li>
               <li>
-                <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  Clínica Médica
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  Tecnologia
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  Ver Todos →
+                <a 
+                  href="https://lanianova-futurista-hero.lovable.app" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-muted-foreground hover:text-primary transition-colors inline-flex items-center gap-1"
+                >
+                  LAN-IA Nova <ExternalLink className="w-3 h-3" />
                 </a>
               </li>
             </ul>
@@ -87,7 +92,7 @@ export const Footer = () => {
         {/* Bottom */}
         <div className="pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">
-            © 2024 SitesPro. Todos os direitos reservados.
+            © 2024 SitesPro. Todos os direitos reservados. Site feito por Luiz Nichele.
           </p>
           <div className="flex gap-6">
             <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">

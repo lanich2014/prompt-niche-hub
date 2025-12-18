@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { nicheModels, NicheModel } from "@/data/nicheModels";
 import { ExternalLink, ShoppingCart } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const ModelCard = ({ model, index }: { model: NicheModel; index: number }) => {
   const Icon = model.icon;
@@ -34,20 +35,24 @@ const ModelCard = ({ model, index }: { model: NicheModel; index: number }) => {
         
         {/* Price */}
         <div className="mb-4">
-          <span className="text-2xl font-bold text-foreground">R$597</span>
+          <span className="text-2xl font-bold text-foreground">R${model.price}</span>
           <span className="text-muted-foreground text-sm">,00</span>
         </div>
         
         {/* Actions */}
         <div className="flex gap-2">
-          <Button variant="glass" size="sm" className="flex-1 group/btn">
-            <ExternalLink className="w-4 h-4" />
-            Ver Modelo
-          </Button>
-          <Button variant="default" size="sm" className="flex-1 group/btn">
-            <ShoppingCart className="w-4 h-4" />
-            Comprar
-          </Button>
+          <a href={model.previewUrl} target="_blank" rel="noopener noreferrer" className="flex-1">
+            <Button variant="glass" size="sm" className="w-full group/btn">
+              <ExternalLink className="w-4 h-4" />
+              Ver Modelo
+            </Button>
+          </a>
+          <Link to={`/carrinho?modelo=${model.id}`} className="flex-1">
+            <Button variant="default" size="sm" className="w-full group/btn">
+              <ShoppingCart className="w-4 h-4" />
+              Comprar
+            </Button>
+          </Link>
         </div>
       </div>
       

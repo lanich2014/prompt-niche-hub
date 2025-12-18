@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, MessageCircle } from "lucide-react";
+import { WHATSAPP_LINK } from "@/data/nicheModels";
 
 export const FinalCTASection = () => {
   return (
@@ -35,14 +36,18 @@ export const FinalCTASection = () => {
           
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button variant="hero" size="xl" className="group">
-              Escolher Meu Modelo de Site
-              <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
-            </Button>
-            <Button variant="heroOutline" size="xl" className="group">
-              <MessageCircle className="w-5 h-5" />
-              Falar com Especialista
-            </Button>
+            <a href="#modelos">
+              <Button variant="hero" size="xl" className="group">
+                Escolher Meu Modelo de Site
+                <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
+              </Button>
+            </a>
+            <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer">
+              <Button variant="heroOutline" size="xl" className="group">
+                <MessageCircle className="w-5 h-5" />
+                Falar com Especialista
+              </Button>
+            </a>
           </div>
           
           {/* Trust Note */}
