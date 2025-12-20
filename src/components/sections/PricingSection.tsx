@@ -6,36 +6,36 @@ import { WHATSAPP_LINK } from "@/data/nicheModels";
 const plans = [
   {
     name: "Modelo Pronto por Nicho",
-    price: "597",
+    price: "497",
     description: "Base profissional já desenvolvida para seu segmento",
     featured: false,
     features: [
-      "Modelo profissional já desenvolvido",
+      "Base profissional já desenvolvida",
       "Personalização com dados do cliente",
-      "Site 100% responsivo e moderno",
-      "Estrutura focada em conversão",
-      "Entrega em até 7 dias úteis",
+      "Site responsivo e moderno",
+      "Otimizado para SEO básico",
+      "Entrega em até 5 dias úteis",
       "1 rodada de ajustes incluída"
     ],
-    cta: "Comprar Modelo – R$597",
+    cta: "Comprar Modelo – R$497",
     ctaVariant: "default" as const,
     linkType: "models"
   },
   {
     name: "Site Exclusivo Sob Medida",
-    price: "997",
+    price: "797",
     description: "Projeto único criado especificamente para o seu negócio",
     featured: true,
     features: [
-      "Estrutura criada do zero",
+      "Estrutura criada especificamente para você",
       "Design exclusivo e personalizado",
-      "Conteúdo estratégico desenvolvido",
-      "Funcionalidades específicas",
-      "Entrega em até 15 dias úteis",
-      "3 rodadas de ajustes incluídas",
+      "Conteúdo e copy profissionais",
+      "SEO avançado configurado",
+      "Entrega em até 10 dias úteis",
+      "2 rodadas de ajustes incluídas",
       "Consultoria de posicionamento"
     ],
-    cta: "Solicitar Site Sob Medida – R$997",
+    cta: "Solicitar Site Sob Medida – R$797",
     ctaVariant: "hero" as const,
     linkType: "whatsapp"
   }
