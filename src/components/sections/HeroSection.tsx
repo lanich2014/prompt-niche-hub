@@ -64,7 +64,7 @@ export const HeroSection = () => {
             </div>
             <div className="w-px h-8 bg-border hidden sm:block" />
             <div className="flex items-center gap-2">
-              <span className="text-2xl font-bold text-foreground">R$597</span>
+              <span className="text-2xl font-bold text-foreground">R$497</span>
               <span className="text-sm">A partir de</span>
             </div>
           </div>

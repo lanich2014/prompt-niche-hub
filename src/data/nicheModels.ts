@@ -18,7 +18,7 @@ export const nicheModels: NicheModel[] = [
     icon: Scale,
     color: "from-blue-500 to-blue-700",
     previewUrl: "https://lovable.dev/projects/24c86631-6a4f-47af-898c-e25063a9d284",
-    price: 597
+    price: 497
   },
   {
     id: "clinica-medica",
@@ -27,7 +27,7 @@ export const nicheModels: NicheModel[] = [
     icon: Heart,
     color: "from-red-500 to-rose-700",
     previewUrl: "https://lovable.dev/projects/f71d8c7a-e64f-4278-9a5a-074c6f21dbc1",
-    price: 597
+    price: 497
   },
   {
     id: "odontologia",
@@ -36,7 +36,7 @@ export const nicheModels: NicheModel[] = [
     icon: Smile,
     color: "from-cyan-400 to-cyan-600",
     previewUrl: "https://lovable.dev/projects/cbfab575-38fa-4748-b3ed-e2d599b1320b",
-    price: 597
+    price: 497
   },
   {
     id: "imobiliaria",
@@ -45,7 +45,7 @@ export const nicheModels: NicheModel[] = [
     icon: Building,
     color: "from-amber-500 to-orange-600",
     previewUrl: "https://lovable.dev/projects/41b5c61e-272c-4f4c-82cb-77f2e7842fbd",
-    price: 597
+    price: 497
   },
   {
     id: "personal-trainer",
@@ -54,7 +54,7 @@ export const nicheModels: NicheModel[] = [
     icon: Dumbbell,
     color: "from-green-500 to-emerald-600",
     previewUrl: "https://lovable.dev/projects/a79f13e6-3a6c-4088-8406-834f8b4952bf",
-    price: 597
+    price: 497
   },
   {
     id: "psicologia",
@@ -63,7 +63,7 @@ export const nicheModels: NicheModel[] = [
     icon: Brain,
     color: "from-purple-500 to-violet-600",
     previewUrl: "https://lovable.dev/projects/8a3f6ca1-232c-4835-9cc0-02352d72f4d4",
-    price: 597
+    price: 497
   },
   {
     id: "contabilidade",
@@ -72,7 +72,7 @@ export const nicheModels: NicheModel[] = [
     icon: Calculator,
     color: "from-slate-500 to-slate-700",
     previewUrl: "https://lovable.dev/projects/4b3b2fee-0199-48fd-bff7-2ff0e1bc0091",
-    price: 597
+    price: 497
   },
   {
     id: "arquitetura",
@@ -81,7 +81,7 @@ export const nicheModels: NicheModel[] = [
     icon: Palette,
     color: "from-pink-500 to-rose-600",
     previewUrl: "https://lovable.dev/projects/3d4fa39f-150b-4588-9893-fbd55e6058c6",
-    price: 597
+    price: 497
   },
   {
     id: "mecanica",
@@ -90,7 +90,7 @@ export const nicheModels: NicheModel[] = [
     icon: Car,
     color: "from-zinc-500 to-zinc-700",
     previewUrl: "https://lovable.dev/projects/26e387db-b76c-4964-a568-34dbf0f8e571",
-    price: 597
+    price: 497
   },
   {
     id: "salao-beleza",
@@ -99,7 +99,7 @@ export const nicheModels: NicheModel[] = [
     icon: Sparkles,
     color: "from-fuchsia-500 to-pink-600",
     previewUrl: "https://lovable.dev/projects/a79d59ec-256f-4178-85c1-3d19c5ea5f83",
-    price: 597
+    price: 497
   },
   {
     id: "mentor-coach",
@@ -108,7 +108,7 @@ export const nicheModels: NicheModel[] = [
     icon: Award,
     color: "from-yellow-500 to-amber-600",
     previewUrl: "https://lovable.dev/projects/1bd80502-5d57-4d22-b8e0-34c05648cffc",
-    price: 597
+    price: 497
   },
   {
     id: "tecnologia",
@@ -117,7 +117,7 @@ export const nicheModels: NicheModel[] = [
     icon: Cpu,
     color: "from-teal-500 to-cyan-600",
     previewUrl: "https://lovable.dev/projects/7a654b5f-a5f4-473d-af57-caaaf72bcbf4",
-    price: 597
+    price: 497
   },
   {
     id: "restaurantes",
@@ -126,7 +126,7 @@ export const nicheModels: NicheModel[] = [
     icon: UtensilsCrossed,
     color: "from-orange-500 to-red-600",
     previewUrl: "https://lovable.dev/projects/2a65dac0-4b07-4fa4-a56b-3ca28c94a947",
-    price: 597
+    price: 497
   },
   {
     id: "lojistas",
@@ -135,7 +135,7 @@ export const nicheModels: NicheModel[] = [
     icon: ShoppingBag,
     color: "from-indigo-500 to-blue-600",
     previewUrl: "https://lovable.dev/projects/f8b985c7-3aea-4768-a7ac-8ddc9f35538e",
-    price: 597
+    price: 497
   }
 ];
 
