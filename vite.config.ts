@@ -5,18 +5,15 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  server: {
-    // aceita IPv4/IPv6
-    host: "::",
-    // mesma porta que você expôs no EasyPanel
-    port: 5173,
-    // ✅ libera os domínios que vão acessar o app
-    allowedHosts: [
-      "landroneia-lovable.nvkwtq.easypanel.host",
-      "landroneia.com",
-      "www.landroneia.com",
-    ],
-  },
+server: {
+  host: "::",
+  port: 5173,
+  allowedHosts: [
+    "landroneia-lovable.nvkwtq.easypanel.host",
+    "landroneia.com",
+    "www.landroneia.com",
+  ],
+},
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
   resolve: {
     alias: {
