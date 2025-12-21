@@ -5,15 +5,15 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-server: {
-  host: "::",
-  port: 5173,
-  allowedHosts: [
-    "landroneia-lovable.nvkwtq.easypanel.host",
-    "landroneia.com",
-    "www.landroneia.com",
-  ],
-},
+  server: {
+    host: "0.0.0.0",          // aceita conexões externas
+    port: 3000,               // mesma porta em todo lugar
+    allowedHosts: [
+      "landroneia-lovable.nvkwtq.easypanel.host",
+      "landroneia.com",
+      "www.landroneia.com",
+    ],
+  },
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
   resolve: {
     alias: {
