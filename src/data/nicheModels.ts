@@ -17,7 +17,7 @@ export const nicheModels: NicheModel[] = [
     description: "Site profissional para escritórios de advocacia e advogados autônomos",
     icon: Scale,
     color: "from-blue-500 to-blue-700",
-    previewUrl: "https://lovable.dev/projects/24c86631-6a4f-47af-898c-e25063a9d284",
+    previewUrl: "https://advocacia-mod1.landroneia.com",
     price: 497
   },
   {
@@ -26,7 +26,7 @@ export const nicheModels: NicheModel[] = [
     description: "Plataforma moderna para clínicas e consultórios médicos",
     icon: Heart,
     color: "from-red-500 to-rose-700",
-    previewUrl: "https://lovable.dev/projects/f71d8c7a-e64f-4278-9a5a-074c6f21dbc1",
+    previewUrl: "https://clinicas-mod1.landroneia.com",
     price: 497
   },
   {
@@ -35,7 +35,7 @@ export const nicheModels: NicheModel[] = [
     description: "Site elegante para dentistas e clínicas odontológicas",
     icon: Smile,
     color: "from-cyan-400 to-cyan-600",
-    previewUrl: "https://lovable.dev/projects/cbfab575-38fa-4748-b3ed-e2d599b1320b",
+    previewUrl: "https://odontologia-mod1.landroneia.com",
     price: 497
   },
   {
@@ -44,7 +44,7 @@ export const nicheModels: NicheModel[] = [
     description: "Portal completo para imobiliárias e corretores de imóveis",
     icon: Building,
     color: "from-amber-500 to-orange-600",
-    previewUrl: "https://lovable.dev/projects/41b5c61e-272c-4f4c-82cb-77f2e7842fbd",
+    previewUrl: "https://imobiliaria-mod1.landroneia.com",
     price: 497
   },
   {
@@ -53,7 +53,7 @@ export const nicheModels: NicheModel[] = [
     description: "Site dinâmico para academias e personal trainers",
     icon: Dumbbell,
     color: "from-green-500 to-emerald-600",
-    previewUrl: "https://lovable.dev/projects/a79f13e6-3a6c-4088-8406-834f8b4952bf",
+    previewUrl: "https://academis-mod1.landroneia.com",
     price: 497
   },
   {
@@ -62,7 +62,7 @@ export const nicheModels: NicheModel[] = [
     description: "Ambiente acolhedor para psicólogos e terapeutas",
     icon: Brain,
     color: "from-purple-500 to-violet-600",
-    previewUrl: "https://lovable.dev/projects/8a3f6ca1-232c-4835-9cc0-02352d72f4d4",
+    previewUrl: "https://psicologos-mod1.landroneia.com",
     price: 497
   },
   {
@@ -71,7 +71,7 @@ export const nicheModels: NicheModel[] = [
     description: "Site profissional para escritórios contábeis",
     icon: Calculator,
     color: "from-slate-500 to-slate-700",
-    previewUrl: "https://lovable.dev/projects/4b3b2fee-0199-48fd-bff7-2ff0e1bc0091",
+    previewUrl: "https://contabilidade-mod1.landroneia.com",
     price: 497
   },
   {
@@ -80,7 +80,7 @@ export const nicheModels: NicheModel[] = [
     description: "Portfólio elegante para arquitetos e designers",
     icon: Palette,
     color: "from-pink-500 to-rose-600",
-    previewUrl: "https://lovable.dev/projects/3d4fa39f-150b-4588-9893-fbd55e6058c6",
+    previewUrl: "https://arquitetura-mod1.landroneia.com",
     price: 497
   },
   {
@@ -89,7 +89,7 @@ export const nicheModels: NicheModel[] = [
     description: "Site robusto para mecânicas e auto centers",
     icon: Car,
     color: "from-zinc-500 to-zinc-700",
-    previewUrl: "https://lovable.dev/projects/26e387db-b76c-4964-a568-34dbf0f8e571",
+    previewUrl: "https://mecanica-mod1.landroneia.com",
     price: 497
   },
   {
@@ -98,7 +98,7 @@ export const nicheModels: NicheModel[] = [
     description: "Site sofisticado para salões e clínicas de estética",
     icon: Sparkles,
     color: "from-fuchsia-500 to-pink-600",
-    previewUrl: "https://lovable.dev/projects/a79d59ec-256f-4178-85c1-3d19c5ea5f83",
+    previewUrl: "https://salao-mod1.landroneia.com",
     price: 497
   },
   {
@@ -107,7 +107,7 @@ export const nicheModels: NicheModel[] = [
     description: "Página de alta conversão para mentores e coaches",
     icon: Award,
     color: "from-yellow-500 to-amber-600",
-    previewUrl: "https://lovable.dev/projects/1bd80502-5d57-4d22-b8e0-34c05648cffc",
+    previewUrl: "https://mentoria-mod1.landroneia.com",
     price: 497
   },
   {
@@ -116,7 +116,7 @@ export const nicheModels: NicheModel[] = [
     description: "Site inovador para startups e empresas de tecnologia",
     icon: Cpu,
     color: "from-teal-500 to-cyan-600",
-    previewUrl: "https://lovable.dev/projects/7a654b5f-a5f4-473d-af57-caaaf72bcbf4",
+    previewUrl: "https://tecnologia-mod1.landroneia.com",
     price: 497
   },
   {
@@ -125,7 +125,7 @@ export const nicheModels: NicheModel[] = [
     description: "Site apetitoso para restaurantes e lanchonetes",
     icon: UtensilsCrossed,
     color: "from-orange-500 to-red-600",
-    previewUrl: "https://lovable.dev/projects/2a65dac0-4b07-4fa4-a56b-3ca28c94a947",
+    previewUrl: "https://restaurante-mod1.landroneia.com",
     price: 497
   },
   {
@@ -134,7 +134,7 @@ export const nicheModels: NicheModel[] = [
     description: "Vitrine digital para lojas e comércios variados",
     icon: ShoppingBag,
     color: "from-indigo-500 to-blue-600",
-    previewUrl: "https://lovable.dev/projects/f8b985c7-3aea-4768-a7ac-8ddc9f35538e",
+    previewUrl: "https://lojas-mod1.landroneia.com",
     price: 497
   }
 ];
