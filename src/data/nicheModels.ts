@@ -53,7 +53,7 @@ export const nicheModels: NicheModel[] = [
     description: "Site dinâmico para academias e personal trainers",
     icon: Dumbbell,
     color: "from-green-500 to-emerald-600",
-    previewUrl: "https://academis-mod1.landroneia.com",
+    previewUrl: "https://academias-mod1.landroneia.com",
     price: 497
   },
   {
